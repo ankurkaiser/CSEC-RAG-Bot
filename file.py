@@ -95,7 +95,7 @@ def generate_response(query, context_chunks):
             {"role": "user", "content": prompt}
         ],
         max_tokens=150,
-        temperature=0.7
+        temperature=0
     )
     return response.choices[0].message.content.strip()
 
