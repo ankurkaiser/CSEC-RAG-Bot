@@ -5,4 +5,4 @@ pdfplumber==0.10.2
 langchain==0.1.14
 openai
 numpy==1.26.4
-faiss-cpu==1.7.4
+faiss-cpu
